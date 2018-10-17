@@ -8,7 +8,7 @@ public class Program{
     var myName = Console.ReadLine();
     
     if (myName.StartsWith("P")){
-      bool whetherIWon = true;
+      whetherIWon = true; //removed bool as var type had already been defined as a bool before the if statement
     }
     
     if (whetherIWon){
@@ -16,5 +16,6 @@ public class Program{
     }else{
       Console.WriteLine("I loose");
     }
+    Console.ReadLine(); //makes program wait for user input before closing allowing user to read the output
   }
 }
